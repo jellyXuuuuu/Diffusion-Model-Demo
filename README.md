@@ -609,3 +609,59 @@ Press any key to continue...
 
 ```
 
+# 更新时间
+2023.8.30
+
+## 安装InvokeAI后需先配置
+
+Configure InvokeAI and install a starting set of image generation models (you only need to do this once):
+```shell
+invokeai-configure --root .
+```
+![Alt text](44068291676ac7fa814e309f592325c.png)
+
+选定一些配置（未加入token）后就开始下载models
+
+默认models添加在home目录/models/下；输入输出分别放在autoimport和text-inversion-output下
+
+
+
+## 更新链接
+参考网站：
+
+https://arxiv.org/abs/2006.11239
+
+https://lilianweng.github.io/posts/2021-07-11-diffusion-models/
+
+https://github.com/dome272/Diffusion-Models-pytorch
+
+https://github.com/CompVis/stable-diffusion
+
+https://github.com/CompVis/stable-diffusion#weights
+
+https://huggingface.co/runwayml/stable-diffusion-v1-5/tree/main
+
+https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/tree/main
+
+https://cloud.tencent.com/developer/article/2160013
+
+https://zhuanlan.zhihu.com/p/525106459
+
+https://invoke-ai.github.io/InvokeAI/installation/
+010_INSTALL_AUTOMATED/
+
+https://huggingface.co/spaces/multimodalart/latentdiffusion/tree/8c61b5bdd7d2d6189a0af523a3cc42871ad26d64/latent-diffusion/ldm/modules/encoders
+
+https://ml.cs.tsinghua.edu.cn/~fanbao/Application-DPM.pdf
+
+https://zhuanlan.zhihu.com/p/563661713
+
+https://zhuanlan.zhihu.com/p/608591235
+
+https://github.com/Xiefan-Guo/Awesome-Visual-Diffusion-Models
+
+https://zhuanlan.zhihu.com/p/631089077
+
+https://www.luckydesigner.space/100-examples-show-how-to-generate-images-by-ai/
+
+
