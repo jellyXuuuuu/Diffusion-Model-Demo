@@ -665,3 +665,36 @@ https://zhuanlan.zhihu.com/p/631089077
 https://www.luckydesigner.space/100-examples-show-how-to-generate-images-by-ai/
 
 
+
+
+# 更新时间
+23.8.31
+
+## 内容 继续安装install models
+再次尝试invokeai-configure --root=.无果后
+搜索安装invokeAI的model
+
+发现别的安装方式：web安装
+
+## 解决
+[https://invoke-ai.github.io/InvokeAI/installation/050_INSTALLING_MODELS/#walk-through](https://invoke-ai.github.io/InvokeAI/installation/050_INSTALLING_MODELS/#walk-through)
+```
+Installation via the Web GUI#
+To install a new model using the Web GUI, do the following:
+
+Open the InvokeAI Model Manager (cube at the bottom of the left-hand panel) and navigate to Import Models
+
+In the field labeled Location type in the path to the model you wish to install. You may use a URL, HuggingFace repo id, or a path on your local disk.
+
+Alternatively, the Scan for Models button allows you to paste in the path to a folder somewhere on your machine. It will be scanned for importable models and prompt you to add the ones of your choice.
+
+Press Add Model and wait for confirmation that the model was added.
+```
+![Alt text](0385434bc0b937fb8a0e3618f90b1a5.png)
+![Alt text](41c63a5472810a96d00eb26cec2d109.png)
+
+最后可以成功运行！
+![Alt text](95660d0983729d022e6fff06e0d22da.png)
+
+## stable diffusion 工作原理
+https://cloud.tencent.com/developer/article/2282775
